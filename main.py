@@ -4,7 +4,7 @@ from telegram.ext import Application, MessageHandler, filters, ContextTypes
 SOURCE_CHAT_ID = -1002825347288  # Группа-источник
 SOURCE_THREAD_ID = 289           # ID темы
 TARGET_CHAT_ID = -1002278292180  # Группа-получатель
-BOT_TOKEN = "ВАШ_ТОКЕН_БОТА"
+BOT_TOKEN = "7804555297:AAH7YFsNeJeSo5-fyVWybbAjut6VSnF96Sw"
 
 async def forward_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if (
